@@ -8,6 +8,11 @@
   box-sizing : border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
 a {
   text-decoration: none;
 }
@@ -207,14 +212,13 @@ html{
   width: 60%;
 }
 
-/* Section : Contact */
-
+/* Section: Contact */
 #contact {
   display: flex;
 }
 
 #contact .map, #contact .contact-form {
-  flex:1;
+  flex: 1;
 }
 
 #contact .contact-form .form-group {
